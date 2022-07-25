@@ -44,9 +44,13 @@ I re-ran the program with the updated training window of 6 months instead of 3.
         training_end = X.index.min() + DateOffset(months=6)
         
 What impact resulted from increasing or decreasing the training window?
-    The actual returns did increase with the training window was increased.
-   
+    The actual returns did increase when the training window was increased.
+
+Increased Training Window Plot:
+
 ![Increased Training Window Plot](https://github.com/abcarmin/Module-14-Challenge/blob/main/6month%20Plot.png)
+
+Increased Training Window Report:
 
 ![Increased Training Window Report](https://github.com/abcarmin/Module-14-Challenge/blob/main/6month%20Report.png)
 
@@ -64,9 +68,13 @@ I re-ran the program with the updated SMA windows of 2 and 200 instead of 4 and 
         signals_df = signals_df.dropna()
 
 What impact resulted from increasing or decreasing either or both of the SMA windows?
-    The actual returns increased when the short window was decreased and the long window was increased. The redults were similar to the results from step 1.
+    The actual returns increased when the short window was decreased and the long window was increased. The results were similar to the results from step 1.
+    
+Updated SMA Window Plot:
     
 ![Updated SMA Window Plot](https://github.com/abcarmin/Module-14-Challenge/blob/main/Adjusted%20Window%20Plot.png)
+
+Updated SMA Window Report:
 
 ![Updated SMA Window Report](https://github.com/abcarmin/Module-14-Challenge/blob/main/Adjusted%20Window%20Report.png)
     
@@ -75,12 +83,16 @@ What impact resulted from increasing or decreasing either or both of the SMA win
 
 Although they were similar, I think the trading algorithm was best with the increased training window (step 1) compared to the baseline model. 
 
+Baseline Plot:
+
 ![Baseline Plot](https://github.com/abcarmin/Module-14-Challenge/blob/main/Baseline%20Plot.png)
+
+Baseline Report:
 
 ![Baseline Report](https://github.com/abcarmin/Module-14-Challenge/blob/main/Baseline%20Report.png)
 
 
-* New Model
+* New Model:
 
 ![New Model Plot](https://github.com/abcarmin/Module-14-Challenge/blob/main/Updated%20Algorithm%20Plot.png)
 
